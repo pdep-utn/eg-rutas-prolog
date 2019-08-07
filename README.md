@@ -5,7 +5,7 @@
 
 Ejercicio de Rutas que permite encontrar la distancia en kilómetros entre dos ciudades pasando por diferentes rutas.
 
-![image](images/rutas.png)
+![image](images/rutas2.png)
 
 ## Mecanismo de tabling
 
