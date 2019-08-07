@@ -24,7 +24,7 @@ kilometrosViaje(Origen, Destino, KmsTotales):-
     kilometrosViaje(PuntoIntermedio, Destino, KmsFinales),
     KmsTotales is KmsIntermedios + KmsFinales.
 kilometrosViaje(Destino, Origen, Kms):-
-    kilometrosViaje(Origen, Destino, Kms), !.  
+    kilometrosViaje(Origen, Destino, Kms).
 
 totalViaje(Origen, Destino, Kms):-kilometrosViaje(Origen, Destino, Kms).
 totalViaje(Destino, Origen, Kms):-kilometrosViaje(Origen, Destino, Kms).
