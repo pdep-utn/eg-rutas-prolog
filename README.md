@@ -1,7 +1,7 @@
 
 # Rutas
 
-[![Build Status](https://travis-ci.org/pdep-utn/eg-rutas-prolog.svg?branch=master)](https://travis-ci.org/pdep-utn/eg-rutas-prolog)
+[![Build Status](https://travis-ci.org/pdep-utn/eg-rutas-prolog.svg?branch=tabling)](https://travis-ci.org/pdep-utn/eg-rutas-prolog)
 
 Ejercicio de Rutas que permite encontrar la distancia en kilómetros entre dos ciudades pasando por diferentes rutas.
 
@@ -27,3 +27,17 @@ Kilometros = 3437 ;
 Kilometros = 3011 ;
 Kilometros = 3072.
 ```
+
+Incluso este mecanismo permite encontrar nuevas rutas, como vemos en los tests:
+
+```prolog
+test(distancias_posibles_usando_diferentes_rutas, set(Kilometros = [1711, 1772, 2137, 2198])):-
+    kilometrosViaje(puertoMadryn, calafate, Kilometros).
+```
+
+Produce 4 soluciones para ir a Puerto Madryn:
+
+- pasar por Puerto Deseado directo
+- pasar por Puerto Deseado y Río Gallegos
+- pasar por Puerto Deseado, llegar a Calafate, pasarse siguiendo a Chaltén y volver a Calafate (le agrega 426 kilómetros, los 213 de ida y otros 213 de vuelta Calafate-Chaltén)
+- pasar por Puerto Deseado, luego Río Gallegos, llegar a Calafate pero seguir a Chaltén y volver a Calafate (le agrega nuevamente 426 kilómetros)
