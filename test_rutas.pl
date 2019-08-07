@@ -14,7 +14,7 @@
 
 test(distancia_directa, nondet):-kilometrosViaje(puertoMadryn, puertoDeseado, 732).
 
-test(distancias_posibles_usando_diferentes_rutas, set(Kilometros = [1711, 1772])):-
+test(distancias_posibles_usando_diferentes_rutas, set(Kilometros = [1711, 1772, 2137, 2198])):-
     kilometrosViaje(puertoMadryn, calafate, Kilometros).
 
 test(recorrida_al_derecho, nondet):-totalViaje(puertoMadryn, calafate, 1711).
