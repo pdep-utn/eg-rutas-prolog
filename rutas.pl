@@ -7,7 +7,7 @@
   ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝ ╚═════╝╚═╝  ╚═╝                                             
 */
 
-% :- table kilometrosViaje/3.
+:- table kilometrosViaje/3.
 
 /** Casos base => la distancia directa es conocida */
 distancia(buenosAires, puertoMadryn, 1300).

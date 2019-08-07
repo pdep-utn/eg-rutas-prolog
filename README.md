@@ -23,5 +23,7 @@ no ocasione problemas cuando yo quiero hacer consultas como
 ```prolog
 ?- kilometrosViaje(calafate, buenosAires, Kilometros).
 Kilometros = 3498 ;
-Kilometros = 3011.
+Kilometros = 3437 ;
+Kilometros = 3011 ;
+Kilometros = 3072.
 ```
