@@ -1,7 +1,7 @@
 
 # Rutas
 
-[![Build](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml/badge.svg)](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml)
+[![Build](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml/badge.svg?branch=tabling)](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml)
 
 Ejercicio de Rutas que permite encontrar la distancia en kilómetros entre dos ciudades pasando por diferentes rutas.
 
