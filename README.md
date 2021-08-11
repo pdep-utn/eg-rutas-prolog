@@ -1,11 +1,11 @@
 
 # Rutas
 
-[![Build Status](https://travis-ci.org/pdep-utn/eg-rutas-prolog.svg?branch=tabling)](https://travis-ci.org/pdep-utn/eg-rutas-prolog)
+[![Build](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml/badge.svg)](https://github.com/pdep-utn/eg-rutas-prolog/actions/workflows/workflow.yml)
 
 Ejercicio de Rutas que permite encontrar la distancia en kilómetros entre dos ciudades pasando por diferentes rutas.
 
-![image](images/rutas2.png)
+![image](images/rutas.png)
 
 ## Mecanismo de tabling
 
